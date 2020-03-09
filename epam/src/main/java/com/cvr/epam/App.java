@@ -6,7 +6,7 @@ public class App<E>
 {
  int size = 0;
  int DEFAULT_CAPACITY = 10;
- private Object elements[];
+ Object elements[];
  public App() {
   elements = new Object[DEFAULT_CAPACITY];
  }
